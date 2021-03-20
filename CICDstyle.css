@@ -1,0 +1,77 @@
+:root {
+  /* Color */
+  --white-color: #fff;
+  --black-color: #140a00;
+  --blue-color: #045fd4;
+  --red-color: #ff5252;
+  --grey-dark-color: #909090;
+  --grey-light-color: #e0e0e0;
+
+  /* Size */
+  --padding: 12px;
+  --avatar-size: 36px;
+
+  /* Font size */
+  --font-large: 18px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-micro: 10px;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.button {
+  text-transform: uppercase;
+  color: var(--white-color);
+  background-color: var(--red-color);
+  font-size: var(--font-medium);
+  border-radius: 5%;
+  border: none;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.wrapper h2 {
+  font-size: 2rem;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group * {
+  margin-bottom: 1rem;
+}
+
+.form-group input {
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--blue-color);
+}
+
+.button.warning {
+  text-transform: none;
+  background-color: #ffb300;
+  font-size: 1rem;
+  color: var(--black-color);
+  padding: 10px;
+}
+
+.button.danger {
+  text-transform: none;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.my-5 {
+  font-size: 2.4rem;
+}
