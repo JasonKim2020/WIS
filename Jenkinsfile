@@ -5,6 +5,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'php --version'
+                Copy-Item -Path "*" -Destination "C:\xampp\htdocs\WIS" -Recurse
             }
         }
     }
