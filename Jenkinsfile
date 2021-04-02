@@ -5,6 +5,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'php --version'
+                sh 'copy * C:\xampp\htdocs\WIS'
             }
         }
     }
