@@ -3,8 +3,7 @@
 define('DB_SERVER', 'fdb27.biz.nf');
 define('DB_USERNAME', '3661084_market');
 define('DB_PASSWORD', 'b09196633b!');
-define('DB_NAME', '
-3661084_market');
+define('DB_NAME', '3661084_market');
  
 /* Attempt to connect to MySQL database */
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
